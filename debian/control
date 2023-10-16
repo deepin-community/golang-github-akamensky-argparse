@@ -12,9 +12,20 @@ Vcs-Git: https://github.com/akamensky/argparse.git
 XS-Go-Import-Path: github.com/akamensky/argparse
 Testsuite: autopkgtest-pkg-go
 
+Package: golang-github-akamensky-argparse-examples
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Argparse for golang (examples)
+ The goal of this project is to bring ease of use 
+ and flexibility of argparse to Go. Which is where 
+ the name of this package comes from.
+ .
+ This package provides examples.
+
 Package: golang-github-akamensky-argparse-dev
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: all
+Depends: ${misc:Depends}
 Multi-Arch: foreign
 Description: Argparse for golang
  The goal of this project is to bring ease of use 
